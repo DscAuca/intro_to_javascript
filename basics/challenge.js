@@ -27,13 +27,13 @@ challenge();
 
 function foo1 (){
     return {username:"jean"};
-} 
+}
 function foo2(){
     return {username:"jean"};
 } 
 
 console.log(foo1() );
-console.log(foo1() );
+console.log(foo2() );
 
 
 function arrayFromValue(item) {
@@ -64,4 +64,30 @@ console.log(myConst); // => error
 
 var myVar = 'value';
 const myConst = 3.14;
+
+/// course attendance 
+
+var registeration=[];
+
+// create a  function that add student to a choosen course, the student object will conatin student id name and list of courses student is going to attend this semester 
+
+
+//create an arrow function accept courseName and Course id and return an abject of course 
+
+// create a Fuction that store all available courses in the comming semester 
+
+//an array that store the all courses 
+
+// create an array that store the semester courses or available course objects 
+
+// create courses using createCourses function 
+
+// add add courses to available courses 
+
+
+// create a student 
+
+// add choose course 
+
+// generate  course studnets list 
 
